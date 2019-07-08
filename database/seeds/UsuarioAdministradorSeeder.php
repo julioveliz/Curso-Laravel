@@ -12,7 +12,7 @@ class UsuarioAdministradorSeeder extends Seeder
     public function run()
     {
         DB::table('usuario')->insert([
-            'usuario' => 'biblioteca_admin',
+            'usuario' => 'admin',
             'nombre' => 'Administrador',
             'password' => bcrypt('pass123')
         ]);
